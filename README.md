@@ -1,4 +1,4 @@
-# Employee Attrition Analytics
+# Employee-Attrition-Analysis-HR-Strategy-Proposal
 
 HR analytics case study using EDA and LightGBM to identify attrition drivers and propose data-driven retention measures.
 
@@ -62,8 +62,8 @@ ROC AUCは離職者と非離職者を順位付けする識別性能の指標で�
 Python 3.11〜3.12を対象にしています。依存関係は互換範囲の指定で、元の実行環境を固定したものではありません。
 
 ```bash
-git clone https://github.com/ruy00803/employee-attrition-analytics.git
-cd employee-attrition-analytics
+git clone https://github.com/ruy00803/Employee-Attrition-Analysis-HR-Strategy-Proposal.git
+cd Employee-Attrition-Analysis-HR-Strategy-Proposal
 python3.12 -m venv .venv
 source .venv/bin/activate
 # Windows PowerShell: .venv\Scripts\Activate.ps1
@@ -97,4 +97,4 @@ CSVがない状態では読み込みセルで説明付きエラーになりま�
 
 [提案PDFを開く（全9ページ）](企業の課題分析と提案.pdf) — 原資料を保存しています。上記「シミュレーションと原資料の訂正」を併せてお読みください。
 
-図表と旧試行AUCの出典：[修正前の公開版（8b9d354）](https://github.com/ruy00803/employee-attrition-analytics/tree/8b9d354)。図は原資料・保存出力からの抽出で、今回の再学習結果ではありません。
+図表と旧試行AUCの出典：[修正前の公開版（8b9d354）](https://github.com/ruy00803/Employee-Attrition-Analysis-HR-Strategy-Proposal/tree/8b9d354)。図は原資料・保存出力からの抽出で、今回の再学習結果ではありません。
